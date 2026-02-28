@@ -25,7 +25,7 @@
       aside {
         /* width: 170px;
         height: 39px; */
-        margin-left: 240px;
+        margin-left: 113px;
         font-size: 26px;
         /* border: 1px solid black; */
         font-weight: 700;
@@ -55,7 +55,19 @@
       nav a:hover {
         color: #f39c12;
       }
-    button {
+    header>nav>button  {
+        border: none;
+        width: 120px;
+        margin-right: 0px;
+        height: 40px;
+        border-radius: 8px;
+        background-color: #c0392b;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+      }
+      button{
         border: none;
         width: 120px;
         height: 40px;
@@ -65,8 +77,13 @@
         font-size: 15px;
         font-weight: 600;
         transition: all 0.3s ease-in-out;
+
       }
-    button:hover {
+    header>nav>button:hover {
+        background-color: #96281b;
+        color: rgb(243, 156, 18);
+      }
+      button:hover {
         background-color: #96281b;
         color: rgb(243, 156, 18);
       }
